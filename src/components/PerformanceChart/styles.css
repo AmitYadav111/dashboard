@@ -1,0 +1,14 @@
+.performance-chart {
+  background-color: var(--color-bg-primary);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.performance-chart h2 {
+  margin: 0 0 20px 0;
+  color: var(--color-text-heading);
+  font-size: 20px;
+  font-weight: 600;
+}

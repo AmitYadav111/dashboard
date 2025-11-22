@@ -1,0 +1,43 @@
+.filters {
+  background-color: var(--color-bg-primary);
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.filter-group label {
+  font-weight: 600;
+  color: var(--color-text-primary);
+  font-size: 14px;
+}
+
+.filter-group select {
+  padding: 10px 15px;
+  border: 1px solid var(--color-border-medium);
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: var(--color-bg-primary);
+  cursor: pointer;
+  min-width: 200px;
+  transition: border-color 0.2s;
+}
+
+.filter-group select:hover {
+  border-color: var(--color-primary);
+}
+
+.filter-group select:focus {
+  outline: none;
+  border-color: var(--color-border-focus);
+  box-shadow: 0 0 0 3px var(--color-primary-light);
+}

@@ -1,0 +1,32 @@
+.theme-clientB {
+  /* Primary Colors */
+  --color-primary: #7c3aed;
+  --color-primary-hover: #6d28d9;
+  --color-primary-light: rgba(124, 58, 237, 0.1);
+
+  /* Background Colors */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #faf5ff;
+  --color-bg-tertiary: #f3e8ff;
+  --color-bg-header: #4c1d95;
+  --color-bg-table-header: #6b21a8;
+  --color-bg-table-header-hover: #4c1d95;
+  --color-bg-row-hover: #f3e8ff;
+
+  /* Text Colors */
+  --color-text-primary: #1e1b4b;
+  --color-text-secondary: #6366f1;
+  --color-text-tertiary: #a78bfa;
+  --color-text-inverse: #ffffff;
+  --color-text-heading: #4c1d95;
+
+  /* Border Colors */
+  --color-border-light: #e9d5ff;
+  --color-border-medium: #d8b4fe;
+  --color-border-focus: #7c3aed;
+
+  /* Chart Colors */
+  --color-chart-primary: #7c3aed;
+  --color-chart-success: #10b981;
+  --color-chart-danger: #f59e0b;
+}
