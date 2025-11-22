@@ -2,6 +2,15 @@
 
 Live demo: https://dashboard-mu-roan-15.vercel.app/
 
+Theme
+
+- You can change the active theme by appending a query parameter to the app URL. Examples:
+
+  - Local development: `http://localhost:3000/?theme=clientA` or `http://localhost:3000/?theme=clientB`
+  - Production: `https://dashboard-mu-roan-15.vercel.app/?theme=clientA`
+
+  Supported values: `clientA`, `clientB`. This switches the client-specific theme CSS loaded by the app.
+
 A lightweight React dashboard showing client metrics and performance charts.
 
 Quick start
